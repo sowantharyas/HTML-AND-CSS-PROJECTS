@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <style>
+        body{
+            background-color: palevioletred;
+        }
+        div{
+            background-color: bisque;
+            color: black;
+            height: 300px;
+            width: 500px;
+            border-radius: 10px;
+            border-color: black;
+            border-style: solid;
+            padding: 30px;
+            box-shadow: 0 20px 25px ;
+        }
+        h1{
+            font-style: italic;
+            color: blue;
+            font-size: 400%;
+        }
+        .box{
+            border-radius: 3px;
+            border-color: black;
+            height: 30px;
+        }
+        select{
+            border-radius: 3px;
+            border-color: black;
+            border-style: solid;
+            width: 180px;
+            height: 35px;
+        }
+        td,label{
+            font-size: large;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <br>
+        <h1>Temperature Converter</h1>
+        <br>
+        <div>
+            <br><br><br><br><br>
+            <table>
+                <tr>
+                    <td>Degree : </td>
+                    <td><input type="number" class="box" placeholder="Temperature in Degree"></td>
+                    <td>&emsp;Type : </td>
+                    <td class="box">
+                        <select placeholder="Choice any one" id="unit">
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Celsius">Celsius</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br><br><br>
+            <label>Result : </label>
+            <input type="number" class="box">
+        </div>
+    </center>
+</body>
+</html>
